@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Estadística Descriptiva</title>
+    <script src="script_prod.js"></script>
+    <script src="Chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <meta charset="utf-8">
+  </head>
+  
+  <body>
+
+    <div class="container">
+
+      <br>
+      <br>
+
+      <h1 class="col-12 text-center color">Estadística Descriptiva</h1>
+
+      <br>
+
+      <p class="col-lg-12 text-center color">
+        Humilde programa que calcula la media o promedio, la mediana, la moda y la frecuencia absoluta con el
+        fin de reforzar los conocimientos aprendidos en clase.
+      </p>
+
+      <div class="col-lg-12 text-center color">
+        <button type="button" class="btn btn-primary" onclick= "estadistica()" >Calcular</button>
+      </div>
+
+      <br><br><br>
+
+      <div class="row">
+        <div class="col-lg text-center color">
+          <h1>Resultados:</h1><br>
+          <!-- <h3 id="respuesta"></h3> -->
+          <h3 id="respuestaMedia"></h3>
+          <h3 id="respuestaMediana"></h3>
+          <h3 id="respuestaModa"></h3>
+          <h3 id="respuestaFrecuenciaAbsoluta"></h3>
+          <br>
+          <br>
+          <br>
+          <h5 id="array"></h5>
+        </div>
+
+        <div class="col-lg text-center color">
+          <canvas id="chart"></canvas>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+</html>
